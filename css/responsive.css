@@ -11,10 +11,14 @@
 }
 
 @media (max-width: 480px){
-    header .container .logo1{
+    header .container{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         flex-direction: column;
+        padding: 1rem 0;
+    }
+    header .container .logo1{
+        margin-bottom: 3rem;
     }
 }
