@@ -1,0 +1,12 @@
+/*Header*/
+
+header{
+    background-color: #b5b5b5;
+    padding: 1rem 2%;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

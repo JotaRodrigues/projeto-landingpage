@@ -1,0 +1,20 @@
+@media (max-width: 1200px){
+}
+
+@media (max-width: 991px){
+}
+
+@media (max-width: 768px){
+}
+
+@media (max-width: 600px){
+}
+
+@media (max-width: 480px){
+    header .container .logo1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
