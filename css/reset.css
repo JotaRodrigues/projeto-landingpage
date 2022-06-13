@@ -14,8 +14,13 @@ html{
 
 body{
     font-size: 1.6rem;
+    height: 100vh;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--white-color);
+    background-image: url(../img/bg-body.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 img{

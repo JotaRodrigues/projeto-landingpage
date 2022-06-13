@@ -1,13 +1,103 @@
-/*Header*/
+/* Header */
 
 header{
-    background-color: #eef0f5;
+    width: 95%;
+    margin: 1.5rem 2%;
     padding: 1rem 2%;
+    background-color: var(--primary-color);
+    position: absolute;
+    box-shadow: 1rem 2rem 4rem black;
+    border-radius: 1rem;
 }
 
 header .container{
-    margin: 2rem 0;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+header .container .logo1{
+    width: 9rem;
+    border-radius: 0.7rem;
+}
+
+header .container nav .menu{
+    text-align: center;
+    justify-content: space-between;
+}
+header .container nav .menu .menu-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 3.5rem;
+    color: var(--white-color);
+}
+
+/* Section Hero */
+
+.s-hero{
+    height: 100vh;
+}
+
+.s-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s-hero .container .tittle-box{
+    width: 100%;
+    max-width: 25rem;
+    margin-top: 10rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s-hero .container .tittle-box h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: var(--white-color);
+    align-items: center;
+    padding: 0 1rem;
+    padding-bottom: 2.5rem;
+    
+}
+
+.s-hero .container .tittle-box h1 span{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.s-hero .container .glass{
+    width: 100%;
+    max-width: 80vw;
+    margin-top: 4rem;
+    display: flex;
+    height: 24rem;
+    border-radius: 5rem;
+    align-items: center;
+    flex-direction:row;
+    justify-content: center;
+    background: rgba(30, 30, 30, 0.5);
+}
+
+.s-hero .container .glass p{
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 0 3rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Section about */
