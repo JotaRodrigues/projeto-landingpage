@@ -30,7 +30,7 @@ header .container nav .menu{
 }
 header .container nav .menu .menu-item{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
     margin-right: 3.5rem;
     color: var(--white-color);
@@ -51,19 +51,20 @@ header .container nav .menu .menu-item{
 
 .s-hero .container .tittle-box{
     width: 100%;
-    max-width: 25rem;
-    margin-top: 10rem;
-    border-radius: 5rem;
+    max-width: 35rem;
+    margin-top: 14.5rem;
+    border-radius: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: rgba(30, 30, 30, 0.2);
 }
 
 .s-hero .container .tittle-box h1{
     justify-content: center;
     text-align: center;
-    font-size: 7rem;
+    font-size: 6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: var(--second-color);
@@ -76,6 +77,7 @@ header .container nav .menu .menu-item{
 .s-hero .container .tittle-box h1 span{
     font-size: 4.5rem;
     font-weight: bold;
+    color: var(--white-color);
 }
 
 .s-hero .container .glass{
@@ -84,7 +86,7 @@ header .container nav .menu .menu-item{
     margin-top: 4rem;
     display: flex;
     height: 24rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
     align-items: center;
     flex-direction:row;
     justify-content: center;
