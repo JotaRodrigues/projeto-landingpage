@@ -23,6 +23,8 @@ header .container .logo1{
 }
 
 header .container nav .menu{
+    display: flex;
+    align-items: center;
     text-align: center;
     justify-content: space-between;
 }
